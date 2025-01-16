@@ -1,0 +1,176 @@
+h3 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-display: 100;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: #0056A4;
+    color: white;
+    padding: 10px 0;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    /* Ensure the footer stays at the bottom */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    margin-bottom: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-media span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+.copyright {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.terms {
+    margin-top: 10px;
+}
+
+.terms a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    background-color: #0056A4;
+    color: white;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    image-rendering: auto;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+    color: #ddd;
+}
+
+.navbar .menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar .menu-toggle i {
+    font-size: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0056A4;
+    }
+
+    .navbar .nav-links.active {
+        display: flex;
+    }
+
+    .navbar .nav-links li {
+        margin: 15px 0;
+    }
+
+    .navbar .menu-toggle {
+        display: inline-block;
+    }
+}
+
+.logo img {
+    height: 42px;
+    /* Set the height of the logo */
+    width: auto;
+    /* Maintain the aspect ratio */
+    margin-right: 10px;
+    /* Optional: add some space between the logo and text */
+    vertical-align: middle;
+    /* Aligns the logo vertically with the text */
+}
